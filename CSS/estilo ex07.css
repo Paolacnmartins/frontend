@@ -1,0 +1,45 @@
+#BANNER{
+width: auto;
+height: 150px;
+background-color: 	#40E0D0;
+margin-top: 15px;
+padding: 30px;
+text-align: center;
+font-size: 35px;
+color: white;
+}
+
+nav{
+    background-color: #4682B4;
+    height: 25px;
+    right: 22px;
+    margin-top: 25px;
+    padding-top: 6px;
+    padding-left: 10px;
+
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    background-color: 	#B0C4DE;
+    border-radius: 3px;
+    }
+    
+    a:hover{
+    background-color: #5F9EA0;
+    padding: 3px;
+    }
+
+    .column{
+        float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 200px;
+    }
+    
+    .row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
